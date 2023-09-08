@@ -1,12 +1,13 @@
 package application;
 
-import board.Board;
+import game.FantasyMatch;
 
 public class Main {
 
 	public static void main(String[] args) {
 		
-		Board board = new Board(8, 8);
+		FantasyMatch fantasyMatch = new FantasyMatch();
+		UI.printBoard(fantasyMatch.getPieces());
 
 	}
 
